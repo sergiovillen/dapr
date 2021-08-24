@@ -3,9 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceInvocation", "ServiceInvocation", "{A4F8028D-71ED-4627-BB17-496F46ABD9B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking.Api", "ServiceInvocation\Booking.Api\Booking.Api.csproj", "{609EE00F-D562-41DE-9CA6-18D167E867E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stock.Api", "ServiceInvocation\Stock.Api\Stock.Api.csproj", "{59BF6F4B-5A85-4645-86D7-07465CF06ACB}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FFD70B88-2423-48D3-94D1-32D427F3134F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{609EE00F-D562-41DE-9CA6-18D167E867E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609EE00F-D562-41DE-9CA6-18D167E867E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609EE00F-D562-41DE-9CA6-18D167E867E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609EE00F-D562-41DE-9CA6-18D167E867E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59BF6F4B-5A85-4645-86D7-07465CF06ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59BF6F4B-5A85-4645-86D7-07465CF06ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59BF6F4B-5A85-4645-86D7-07465CF06ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59BF6F4B-5A85-4645-86D7-07465CF06ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFD70B88-2423-48D3-94D1-32D427F3134F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFD70B88-2423-48D3-94D1-32D427F3134F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFD70B88-2423-48D3-94D1-32D427F3134F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFD70B88-2423-48D3-94D1-32D427F3134F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{609EE00F-D562-41DE-9CA6-18D167E867E0} = {A4F8028D-71ED-4627-BB17-496F46ABD9B3}
+		{59BF6F4B-5A85-4645-86D7-07465CF06ACB} = {A4F8028D-71ED-4627-BB17-496F46ABD9B3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2D4FA065-885F-4FDB-AA22-DDA10F198432}
